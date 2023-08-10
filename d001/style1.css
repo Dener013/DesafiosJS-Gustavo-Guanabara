@@ -1,0 +1,22 @@
+.container
+{
+    align-items:center;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#b1:hover 
+{ 
+background-color: darkgrey; 
+
+transition: 0.5s;
+
+opacity: 0.7;
+
+}
+.botao{
+    border: 2px solid;
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    padding: 30px;
+    box-sizing: border-box;
+}
