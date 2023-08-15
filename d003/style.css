@@ -1,0 +1,60 @@
+h1{
+    font-size: 50px;
+    color:aliceblue;
+    text-decoration:underline;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+}
+.container{
+    margin-left: 40%;
+    position: absolute;
+    margin-top: 10%;
+    border-radius: 10px;
+    border-color: grey;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    padding: 40px;
+    background-color: grey;
+}
+
+input {
+    width: 100%;
+    padding: 12px 8px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border:none;
+}
+
+#formulario{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#res{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+}
+
+#button{
+    font-weight: bold;
+    padding: 14px 40px;
+    border-radius: 12px;
+    margin-top: 15px;
+    border: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#button:hover { 
+    background-color:darkgray; 
+    transition: 0.5s;
+    opacity: 0.7;
+}
